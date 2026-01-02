@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>dev.danvega</groupId>
-	<artifactId>mcps-parent</artifactId>
+	<artifactId>mcp-security-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 

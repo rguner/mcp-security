@@ -38,7 +38,17 @@ public class McpServerSecurityConfig {
                             // REQUIRED: the authserver's issuer URI
                             mcpAuthorization.authorizationServer(this.authServerUrl);
                             // OPTIONAL: enforce the `aud` claim in the JWT token.
-                            mcpAuthorization.validateAudienceClaim(true);
+
+                            //mcpAuthorization.validateAudienceClaim(true); // http://localhost:8080/mcp veya http://127.0.0.1:8080/mcp aynı anlama gelir
+                            // asagidaki aud degerini kontrol eder.
+                            //    "sub": "ramazan-guner_atmosw",
+                            //        "aud": "http://localhost:8080/mcp",
+                            //        "nbf": 1767347410,
+                            //        "iss": "http://localhost:9000",
+                            //        "exp": 1767347710,
+                            //       "iat": 1767347410,
+                            //        "jti": "f3f068ad-4fe1-4fc6-bd4e-cc8aa2b9a98d"
+
                         }
                 )
                 .build();
