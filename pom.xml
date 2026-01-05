@@ -20,7 +20,8 @@
 
 	<modules>
 		<module>mcp-server</module>
-		<module>authorization-server</module>
+		<module>authorization-server-github</module>
+		<module>authorization-server-google</module>
 	</modules>
 
 	<properties>

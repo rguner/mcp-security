@@ -9,8 +9,8 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>authorization-server</artifactId>
-	<name>authorization-server</name>
+	<artifactId>authorization-server-github</artifactId>
+	<name>authorization-server-github</name>
 	<description>OAuth2 Authorization Server for MCP with GitHub integration</description>
 
 	<dependencies>
