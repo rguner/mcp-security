@@ -36,12 +36,14 @@ spring:
                 - "http://localhost:8080/authorized"
                 - "http://localhost:8080/login/oauth2/code/mcp"
                 - "https://oauth.pstmn.io/v1/callback"
+                - "http://localhost:6274/oauth/callback/debug"
               scopes:
                 - "openid"
                 - "profile"
                 - "email"
-                - "mcp.server"
-                - "mcp.tools"
+                - "read"
+                - "mcp:server"
+                - "mcp:tools"
             require-proof-key: false  # PKCE disabled for simplicity
             token:
               authorization-code-time-to-live: PT5M
